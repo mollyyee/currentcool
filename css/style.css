@@ -701,6 +701,11 @@ body {
 	position: relative;	
 }
 
+.rightlessmargin2 {
+	margin: 0 5% 0 5%;
+	float: top;
+	position: relative;	
+}
 .leftlessmargin {
 	margin: 0 5% 0 10%;
 	float: top;
@@ -776,9 +781,6 @@ body {
 }
 
 
-.column34 {
-	width: 60%;
-}
 
 
 
@@ -811,6 +813,10 @@ body {
 .column13{
 	width: 60%;
 }
+.column34 {
+	width: 60%;
+}
+
 
 .column7{
 	width: 70%;
