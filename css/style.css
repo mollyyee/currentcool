@@ -694,6 +694,12 @@ body {
 	position: relative;
 }
 
+.rightlessmargin {
+	margin: 0 10% 0 5%;
+	float: top;
+	position: relative;	
+}
+
 .titlemargin {
 	margin: 0 0% 0 10%;
 
@@ -789,6 +795,10 @@ body {
 
 .column4 {
 	width: 40%;
+}
+
+.column5 {
+	width: 50%;
 }
 
 .column13{
