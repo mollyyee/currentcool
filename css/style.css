@@ -14,7 +14,7 @@ h1 {
 	font-weight: 500;
 	line-height: 40px;
 	letter-spacing: 2px;
-	color: #536277;
+	color: #f66b85;
 }
 
 #h1small {
@@ -278,7 +278,7 @@ body {
 }
 
 .navbuttons {	
-	width: 40px;
+	width: 100px;
 	margin: auto;
 }
 
