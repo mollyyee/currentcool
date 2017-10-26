@@ -586,6 +586,17 @@ body {
 }
 
 
+.imagebox {
+	height: contain;
+	display: flex;
+	padding-bottom: 5%;
+}
+
+.imageboxprintz {
+	height: contain;
+	display: flex;
+}
+
 #video {
 	position: absolute;
 	width: 80%;
@@ -714,7 +725,7 @@ body {
 }
 
 .titlemargin {
-	margin: 0 0% 0 10%;
+	margin: 10% 0% 0 10%;
 
 	float: top;
 	position: relative;
