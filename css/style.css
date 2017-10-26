@@ -337,6 +337,10 @@ body {
 	flex-direction: row;
 }
 
+.projectbox {
+	width: 100%;
+}
+
 .projectcard:before {
   content: " ";
   position: absolute;
