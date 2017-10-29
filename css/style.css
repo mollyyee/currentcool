@@ -154,7 +154,7 @@ p {
 	font-weight: 400;
 	font-size: 32px;
 	line-height: 48px;
-	color: #58686F;
+	color: #3C3C3C;
 	letter-spacing: 1px;
 	padding-bottom: 8px;
 }
@@ -180,9 +180,10 @@ p {
 .projectboldheader {
 	font-family: "Helvetica Neue";
 	font-weight: 600;
-	font-size: 18px;
-	line-height: 36px;
-	color: #58686F;
+	letter-spacing: 2px;
+	font-size: 20px;
+	line-height: 44px;
+	color: #3C3C3C;
 } 
 
 .textpadding {
@@ -599,6 +600,11 @@ body {
 .imageboxprintz {
 	height: contain;
 	display: flex;
+}
+
+.imageboxsnicker {
+	height: contain;
+	padding: 5% 0 5% 0;
 }
 
 #video {
