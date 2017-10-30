@@ -1,3 +1,6 @@
+@media screen and (min-width: 768px) {
+
+
 
 /*Fonts*//*Fonts*//*Fonts*//*Fonts*/
 /*Fonts*//*Fonts*//*Fonts*//*Fonts*/
@@ -259,6 +262,14 @@ body {
 	padding: 0 2% 0 2%;
 /*	border: 5px solid #FFD64C;
 */}
+
+.mobile {
+	display: none;
+}
+
+#mobilenavbar {
+	display: none;
+}
 
 #navbar {
 	width: 20%;
@@ -900,7 +911,7 @@ height: 15%;
 
 
 
-
+}
 
 
 
