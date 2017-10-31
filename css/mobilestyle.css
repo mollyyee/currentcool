@@ -1,6 +1,6 @@
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+  and (min-device-width: 374px) 
+  and (max-device-width: 800px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
 
 
@@ -21,6 +21,7 @@ h1 {
 	letter-spacing: 2px;
 	color: #f66b85;
 }
+
 
 #h1small {
 	font-size: 18px;
@@ -270,6 +271,8 @@ body {
 	height: 150px;
 	background-color: white;
 	z-index: 2;
+	display: flex;
+	margin: auto;
 }
 
 #fullcenter {
@@ -279,6 +282,7 @@ body {
 
 .mobileheader {
 	margin: auto;
+	width: 100%;
 }
 
 #mobilenavbar {

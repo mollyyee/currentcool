@@ -431,9 +431,9 @@ body {
 
 .skillsquare { 
     z-index: 1;
-    height: 18px;
-    width: 18px;
-    margin-right: 3em;
+    height: 24px;
+    width: 24px;
+    margin-right: 4em;
     -webkit-transition: all .2s ease;
 	-moz-transition: all .2s ease;
 	-ms-transition: all .2s ease;
