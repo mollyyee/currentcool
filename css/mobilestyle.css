@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 
 
 @font-face {
@@ -28,34 +28,24 @@
 /*greeting font*/
 h1 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 32px;
+	font-size: 28px;
 	font-weight: 500;
 	line-height: 40px;
-	letter-spacing: 1px;
-	color: #FB0D1B;
+	letter-spacing: 2px;
+	color: #FFAF9A;
 }
 
 #imagine {
 font-family: 'Inconsolata', monospace;
-	font-size: 60px;
+	font-size: 32px;
 	letter-spacing: 8px;
 	font-weight: 500;
-	color: #042A8C;
+	color: #FFAF9A;
 	position: relative;
 	z-index: 1;
 	line-height: 0px;
 }
 
-#imagine2 {
-font-family: 'Inconsolata', monospace;
-	font-size: 44px;
-	letter-spacing: 3px;
-	font-weight: 500;
-	color: #042A8C;
-	position: relative;
-	z-index: 1;
-	line-height: 0px;
-}
 
 
 #imaginegreen {
@@ -63,10 +53,10 @@ font-family: 'Inconsolata', monospace;
 	top: 0;
 	position: absolute;
 	padding:0 0 0 8px;
-	font-size: 60px;
+	font-size: 32px;
 	letter-spacing: 8px;
 	font-weight: 500;
-	color: #D496D3;
+	color: #83F8E0;
 	line-height: 0px;
 
 }
@@ -75,11 +65,11 @@ font-family: 'Inconsolata', monospace;
 font-family: 'Inconsolata', monospace;
 	top: 0;
 	position: absolute;
-	padding:0 0 0 6px;
+	padding:0 0 0 5px;
 	font-size: 44px;
 	letter-spacing: 3px;
 	font-weight: 500;
-	color: #D496D3;
+	color: #83F8E0;
 	line-height: 0px;
 
 }
@@ -88,7 +78,7 @@ font-family: 'Inconsolata', monospace;
 #productdesigner {
 	font-family: 'avenir';
 	color: #4E5C63;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 100;
 	letter-spacing: 0px;
 
@@ -360,6 +350,40 @@ p {
 /*Structure*//*Structure*//*Structure*//*Structure*/
 /*Structure*//*Structure*//*Structure*//*Structure*/
 
+
+.navbar1 {
+	display: flex;
+	width: 100%;
+	height: 10%;
+/*	position: fixed;
+	background-color: white;*/
+}
+
+.navbuttons1 {
+	margin: auto;
+}
+
+.navbar {
+	width: 100%;
+	display: flex;
+	height: 20px;
+	flex-direction: row;
+}
+
+
+.navbuttons {	
+	padding-bottom: 25px;
+	margin: auto;
+
+}
+
+
+
+
+
+
+
+
 body {
 	padding: 0 2% 0 2%;
 /*	border: 5px solid #FFD64C;
@@ -368,11 +392,18 @@ body {
 
 .header {
 	display: flex;
-	height: 70%;
+	height: 30%;
+	width: 100%;
+}
+
+
+.headercentered {
+	margin: auto;
+	position: relative;
 }
 
 .spacing {
-height: 25%;
+height: 20%;
 }
 
 
@@ -382,45 +413,8 @@ height: 25%;
 	padding: 0 0 0 25%;
 }
 
-.headercentered {
-	margin: auto;
-	position: relative;
-}
 
 
-.mobile {
-	display: none;
-}
-
-
-
-#mobilenavbar {
-	display: none;
-}
-
-
-
-.navbar {
-	width: 25%;
-	height: 350px;
-	position: fixed;
-	left: 8%;
-	display: flex;
-	z-index: 5;
-	flex-direction: column;
-	display: none;
-}
-
-.navbar1 {
-	width: 25%;
-	height: 350px;
-	position: fixed;
-	left: 8%;
-	display: flex;
-	z-index: 5;
-	flex-direction: column;
-	display: none;
-}
 
 .navbarproject {
 	width: 10%;
@@ -444,19 +438,9 @@ height: 25%;
 }
 
 #bartop {
-	height: 100px;
-	top: 25%;
+	display: none;
 }
 
-#bartop1 {
-	height: 100px;
-	top: 20%;
-}
-
-
-#barbottom {
-	top: 40%;
-}
 
 .bar {
 	height: 80px;
@@ -466,15 +450,7 @@ height: 25%;
 	padding-left: 15%;
 }
 
-.navbuttons {	
-	width: 100px;
-	padding-bottom: 25px;
-}
 
-.navbuttons1 {	
-	width: 100px;
-	padding-bottom: 25px;
-}
 
 .navbuttonlong {	
 	width: 200px;
@@ -498,11 +474,11 @@ height: 25%;
 }
 
 .projectgrid {
-	width: 70%;
+	top: 0%;
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	margin: auto;
-	margin-left: 25%;
 }
 
 
@@ -524,7 +500,7 @@ height: 25%;
 }
 
 .projectcard {
-	border-top: 8px solid #042A8C;
+	border-top: 8px solid #FFAF9A;
 	width: 100%;
 	margin: 5% 0 0 0;
 	position: relative;
@@ -552,28 +528,23 @@ height: 25%;
 
 .piccontainer {
 	height: contain;
-	width: 50%;
+	width: 100%;
 }
 
 .piccontainervisual {
 	height: contain;
-	width: 80%;
+	width: 100%;
 }
 
 
 
 .projectdescription {
-	width: 50%;
-	display: flex;
-	flex-direction: auto;
-	padding-top: 15%;
+	display: none;
+
 }
 
 .projectdescriptionvis {
-	width: 30%;
-	display: flex;
-	flex-direction: auto;
-	padding-top: 15%;
+	display: none;
 }
 
 .line {
@@ -596,10 +567,10 @@ height: 25%;
 }
 
 
-/*E3FFF4*/
+
 
 .overlay {
-	background-color: #EFD9EF;
+	background-color: #E3FFF4;
 	z-index: 1;
 	opacity: 0;
 	height: 100%;
@@ -635,7 +606,7 @@ height: 25%;
 }
 
 .skillsquare { 
-    z-index: 5;
+    z-index: 1;
     height: 24px;
     width: 24px;
     margin-right: 4em;
@@ -648,8 +619,9 @@ height: 25%;
 
  .skillsusedpage {
     width: 50%;
+    z-index: 5;
     display: flex;
-    padding: 60px 0 0 25%;
+    padding: 60px 0 0 7%;
 } 
 
  .skillsusedpageabout {
