@@ -82,7 +82,7 @@ $(document).ready(function(){
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 300) {
+  if (y > 200) {
     $('.navbar').fadeIn();
   } 
   // else {
