@@ -366,13 +366,24 @@ body {
 */}
 
 
+.eyes {
+	width: 70%;
+	position: absolute;
+	left: 25%;
+	top: -5%;
+}
+
+#eyes {
+	width: 100%;
+}
+
 .header {
 	display: flex;
-	height: 70%;
+	height: 80%;
 }
 
 .spacing {
-height: 25%;
+height: 30%;
 }
 
 
@@ -434,7 +445,7 @@ height: 25%;
 
 .back {
 	width: 25%;
-	top: 20%;
+	top: 30%;
 	height: 350px;
 	position: fixed;
 	left: 8%;
@@ -445,7 +456,7 @@ height: 25%;
 
 #bartop {
 	height: 100px;
-	top: 25%;
+	top: 30%;
 }
 
 #bartop1 {
@@ -455,7 +466,7 @@ height: 25%;
 
 
 #barbottom {
-	top: 40%;
+	top: 45%;
 }
 
 .bar {
@@ -526,7 +537,7 @@ height: 25%;
 .projectcard {
 	border-top: 8px solid #042A8C;
 	width: 100%;
-	margin: 5% 0 0 0;
+	margin: 10% 0 0 0;
 	position: relative;
 	display: flex;
 	flex-direction: row;
