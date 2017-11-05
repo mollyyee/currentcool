@@ -811,10 +811,10 @@ body {
 
 
 .vidbox {
-	height: 350px;
-	display: flex;
-	padding-top: 5%;
-	margin-bottom: 50px;
+	width: 150%;
+	height: contain;
+	padding-bottom: 5%;
+
 }
 
 
@@ -836,9 +836,7 @@ body {
 }
 
 #video {
-	position: absolute;
-	width: 80%;
-	margin: auto;
+	width: 100%;
 	z-index: -1;
 }
 
