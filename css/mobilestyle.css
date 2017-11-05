@@ -213,7 +213,7 @@ p {
 	font-size: 18px;
 	line-height: 28px;
 	letter-spacing: .5px;
-	color: #252F36;
+	color: #1F1F1F;
 	padding-bottom: 16px;
 }
 
@@ -423,7 +423,7 @@ body {
 }
 
 #bartop {
-	padding-top: 8%;
+	padding-top: 6%;
 }
 
 
@@ -607,8 +607,8 @@ body {
 /*About*//*About*//*About*//*About*//*About*//*About*//*About*//*About*/
 
 .abouttext {
-	width: 80%;
-	padding: 0 10% 100px 10%;
+	width: 88%;
+	padding: 0 7% 100px 5%;
 }
 
 .abouttext2 {
