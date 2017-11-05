@@ -366,6 +366,10 @@ body {
 */}
 
 
+.mobileshow {
+	display: none;
+}
+
 .eyes {
 	width: 70%;
 	position: absolute;

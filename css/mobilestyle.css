@@ -121,7 +121,7 @@ font-family: 'Inconsolata', monospace;
 /*havbutton*/
 h2 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 200;
 	letter-spacing: 2px;
 	color: #252F36;
@@ -247,11 +247,15 @@ p {
 
 }
 
+.web {
+	display: none;
+}
+
 .projecttitle {
 	font-family: "Helvetica Neue";
 	font-weight: 400;
-	font-size: 32px;
-	line-height: 48px;
+	font-size: 26px;
+	line-height: 38px;
 	color: #3C3C3C;
 	letter-spacing: 1px;
 	padding-bottom: 8px;
@@ -362,7 +366,7 @@ body {
 .eyes {
 	width: 100%;
 	position: absolute;
-	top: 33%;
+	top: 25%;
 }
 
 #eyes {
@@ -371,7 +375,7 @@ body {
 
 .header {
 	display: flex;
-	height: 90%;
+	height: 70%;
 	width: 100%;
 }
 
@@ -419,12 +423,12 @@ body {
 }
 
 #bartop {
-	padding-top: 10%;
+	padding-top: 8%;
 }
 
 
 #barbottom {
-	top: 25%;
+	top: 15%;
 	margin: auto;
 }
 
@@ -452,11 +456,11 @@ body {
 
 
 .bar {
-	height: 80px;
+	height: 200px;
 	display: flex;
-	width: 70%;
+	width: 100%;
 	margin: auto;
-	padding-left: 15%;
+	flex-direction: column;
 }
 
 .navbuttons {	
@@ -501,11 +505,10 @@ body {
 
 
 .photogrid {
-	width: 60%;
-	padding-top: 5%;
+	width: 100%;
+	padding-top: 50%;
 	display: flex;
 	flex-wrap: wrap;
-	margin-left: 20%;
 }
 
 .visual {
@@ -789,9 +792,8 @@ body {
 /*Project Structure*/
 
 #projectbody {
-	margin-right: 3%;
-	margin-left: 18%;
-	width: 80%;
+	padding: 50% 5% 0 5%;
+	width: 90%;
 }
 
 
@@ -825,6 +827,7 @@ body {
 
 .imageboxsnicker {
 	height: contain;
+	width: 100%;
 	padding: 5% 0 5% 0;
 }
 
@@ -843,7 +846,7 @@ body {
 }
 
  .longblock {
-	width: 90%;
+	width: 95%;
 	display: flex;
 	margin: auto;
 }
@@ -880,7 +883,7 @@ body {
 }
 
 #halfcolumnspadding {
-	width: 40%;
+	width: 50%;
 	top: 0;
 	z-index: 5;
 }
@@ -892,9 +895,9 @@ body {
 }
 
 #halfcolumnsleftpadding {
-	width: 40%;
+	width: 50%;
 	top: 0;
-	padding-left: 20%;
+	padding: 5% 0 0 20%;
 	z-index: 5;
 }
 
@@ -933,7 +936,7 @@ body {
 }
 
 .margin {
-	margin: 0 15% 0 10%;
+	margin: 0 5% 0 2%;
 	float: top;
 	position: relative;
 }
