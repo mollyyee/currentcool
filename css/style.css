@@ -75,7 +75,7 @@ font-family: 'Inconsolata', monospace;
 font-family: 'Inconsolata', monospace;
 	top: 0;
 	position: absolute;
-	padding:0 0 0 6px;
+	padding:0 0 0 3px;
 	font-size: 44px;
 	letter-spacing: 3px;
 	font-weight: 500;
@@ -132,6 +132,22 @@ h2 {
 	font-weight: 200;
 	letter-spacing: 2px;
 	color: #252F36;
+}
+
+
+#iconnavfont {
+	font-family: 'Inconsolata', monospace;
+	color: #042A8C;
+	z-index: 1;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 0px;
+}
+
+#iconnavfont:hover {
+	font-weight: 700;
+	color: #FB0D1B;
+
 }
 
 
@@ -479,6 +495,27 @@ height: 30%;
 	width: 70%;
 	margin: auto;
 	padding-left: 15%;
+}
+
+#iconnav {
+	height: 20px;
+	padding-left: 20%;
+	z-index: 5;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 2px;
+	height: 2px;
+	margin: 11px 30px 0 0;
+	background: #EFD9EF;
+    border: 1px solid #042A8C;
+}
+
+
+.iconbuttons {
+	padding: 0 30px 0 0px;
+	z-index: 20;
 }
 
 .navbuttons {	
