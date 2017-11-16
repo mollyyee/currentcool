@@ -368,6 +368,75 @@ p {
 }
 
 
+.resumesection {
+	margin: 36px 0 0 0;
+}
+
+.resumehover {
+	color: #252F36;
+}
+
+.resumehover:hover {
+	color: #D496D3;
+	font-weight: 700;
+}
+
+.resumeheader {
+	font-family: "Helvetica Neue";
+	font-weight: 700;
+	color: #042A8C;
+	font-size: 24px;
+	letter-spacing: 2px;
+	margin: 0 0 12px 0;
+}
+
+#pdf {
+	font-size: 18px;
+	text-decoration: underline;
+}
+
+.resumebold {
+	font-family: "Helvetica Neue";
+	font-weight: 700;
+	font-size: 18px;
+	color: #252F36;
+	line-height: 32px;
+	letter-spacing: 1px;
+}
+
+
+
+.resumedates {
+	font-family: "Helvetica Neue";
+	font-weight: 400;
+	font-size: 16px;
+	color: #252F36;
+	line-height: 28px;
+}
+
+#height {
+	margin: 1px 0 0 24px;
+	font-size: 18px;
+
+	line-height: 32px;
+}
+
+#padding {
+	margin: 0 0 0 5%;
+}
+
+.resumetext {
+	font-family: "Helvetica Neue";
+	font-weight: 200;
+	font-size: 16px;
+	color: #252F36;
+	line-height: 32px;	
+}
+
+#lessheight {
+	line-height: 28px;
+}
+
 
 /*Structure*//*Structure*//*Structure*//*Structure*/
 /*Structure*//*Structure*//*Structure*//*Structure*/
@@ -547,6 +616,15 @@ height: 30%;
 
 .full {
 	width: 100%;
+}
+
+#full {
+	width: 100%;
+	display: flex;
+}
+
+#center {
+	margin: auto;
 }
 
 .projectgrid {
@@ -1111,6 +1189,10 @@ height: 30%;
 
 .column25 {
 	width: 25%;
+}
+
+.column3 {
+	width: 30%;
 }
 
 .column14 {
