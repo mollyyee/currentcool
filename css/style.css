@@ -225,18 +225,18 @@ p {
 	font-size: 14px;
 	line-height: 22px;
 	font-family: "Helvetica Neue";
-	font-weight: 200;
-	color: #252F36;
+	font-weight: 400;
+	color: #525252;
 
  }
 
 .p {
 	font-family: "Helvetica Neue";
-	font-weight: 200;
+	font-weight: 400;
 	font-size: 16px;
-	line-height: 28px;
-	letter-spacing: .5px;
-	color: #252F36;
+	line-height: 26px;
+	letter-spacing: .2px;
+	color: #525252;
 	padding-bottom: 16px;
 }
 
@@ -373,12 +373,11 @@ p {
 }
 
 .resumehover {
-	color: #252F36;
+	color: #D496D3;
 }
 
 .resumehover:hover {
-	color: #D496D3;
-	font-weight: 700;
+	color: #B581B5;
 }
 
 .resumeheader {
@@ -399,7 +398,7 @@ p {
 	font-family: "Helvetica Neue";
 	font-weight: 700;
 	font-size: 18px;
-	color: #252F36;
+	color: #D496D3;
 	line-height: 32px;
 	letter-spacing: 1px;
 }
@@ -412,6 +411,8 @@ p {
 	font-size: 16px;
 	color: #252F36;
 	line-height: 28px;
+	font-style: italic;
+
 }
 
 #height {
@@ -427,9 +428,9 @@ p {
 
 .resumetext {
 	font-family: "Helvetica Neue";
-	font-weight: 200;
+	font-weight: 400;
 	font-size: 16px;
-	color: #252F36;
+	color: #525252;
 	line-height: 32px;	
 }
 
@@ -451,7 +452,19 @@ body {
 */}
 
 
+.topbar {
+	display: none;
+}
+
+nav { 
+display: none; }
+
 .mobileshow {
+	display: none;
+}
+
+
+.navbarmobile {
 	display: none;
 }
 
@@ -459,7 +472,7 @@ body {
 	width: 70%;
 	position: absolute;
 	left: 25%;
-	top: -5%;
+	top: 5%;
 }
 
 #eyes {
@@ -508,7 +521,6 @@ height: 30%;
 	display: flex;
 	z-index: 5;
 	flex-direction: column;
-	display: none;
 }
 
 .navbar1 {
