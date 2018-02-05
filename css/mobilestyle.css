@@ -19,11 +19,6 @@
 /*Fonts*//*Fonts*//*Fonts*//*Fonts*/
 
 
-body {
-	margin: 0;
-	max-width: 100%;
-}
-
 /**/
 
 
@@ -34,7 +29,6 @@ body {
 	display: flex;
 	width: 100%;
 	padding-top: 8px;
-	position: fixed;
 	z-index: 500;
 }
 
@@ -43,26 +37,25 @@ body {
 	padding-left: 12px;
 }
 
-nav#main-menu.main-menu {
+#mainmenu {
   width: 100%;
   height: 100%;
   background-color: #EFDBF0;
-  position: absolute;
-  display: flex;
-  right: -1000px;
+  position: fixed;
+  display: none;
   top: 0;
-  transition: right 1s ease;
-  transition: 0.5s ease-in-out;    
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;   
-  z-index: 999;
+  z-index: 1000;
   }
+
+
 
 ul {
 	margin: auto;
 	list-style-type: none;
+	padding: 0;
 }
 
-	
+
 li {
 	margin: auto;
 	text-align: center;
@@ -86,60 +79,12 @@ li {
 #right {
 	margin-left: auto;
   	order: 2;
-
 }
 
 a {
 	text-decoration: none;
 }
 
-
-/*Interaction*//*Interaction*//*Interaction*/
-/*Interaction*//*Interaction*//*Interaction*/
-
-
-.main-menu:target,
-.main-menu[aria-expanded="true"] {
-  left: 0;
-}
-
-.main-menu:target .menu-close,
-.main-menu[aria-expanded="true"] .menu-close {
-  z-index: 1001;
-}
-
-.main-menu:target ul,
-.main-menu[aria-expanded="true"] ul {
-  position: relative;
-  z-index: 1000;
-}
-
-/* 
- We could us `.main-menu:target:after`, but
- it wouldn't be clickable.
-*/
-.main-menu:target + .backdrop,
-.main-menu[aria-expanded="true"] + .backdrop {
-  position: absolute;
-  display: block;  
-  content: "";
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 998;
-  background: #000;
-  background: rgba(0,0,0,.85);
-  cursor: default;
-}
-
-@supports (position: fixed) {
-  .main-menu,
-  .main-menu:target + .backdrop,
-  .main-menu[aria-expanded="true"] + .backdrop {
-    position: fixed;
-  }
-}
 
 
 /*greeting font*/
@@ -494,8 +439,10 @@ p {
 /*Structure*//*Structure*//*Structure*//*Structure*/
 
 body {
-	margin: 0 1% 0 1%;
 	width: 100%;
+	margin: 0;
+	overflow-x: hidden;
+
 /*	border: 5px solid #FFD64C;
 */}
 
@@ -1312,6 +1259,8 @@ height: 15%;
 body {
 	margin: 0;
 	max-width: 100%;
+	overflow-x: hidden;
+
 }
 
 /**/
@@ -1324,7 +1273,6 @@ body {
 	display: flex;
 	width: 100%;
 	padding-top: 8px;
-	position: fixed;
 	z-index: 500;
 }
 
@@ -1333,24 +1281,26 @@ body {
 	padding-left: 12px;
 }
 
-nav#main-menu.main-menu {
+
+
+#mainmenu {
   width: 100%;
   height: 100%;
   background-color: #EFDBF0;
-  position: absolute;
-  display: flex;
-  right: -1000px;
-  top: 0;
-  transition: right 1s ease;
-  transition: 0.5s ease-in-out;    
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;   
+  position: fixed;
+  display: none;
+  top: 0;  
   z-index: 999;
+
   }
 
 ul {
 	margin: auto;
 	list-style-type: none;
+	padding: 0;
+
 }
+
 
 	
 li {
@@ -1384,52 +1334,7 @@ a {
 }
 
 
-/*Interaction*//*Interaction*//*Interaction*/
-/*Interaction*//*Interaction*//*Interaction*/
 
-
-.main-menu:target,
-.main-menu[aria-expanded="true"] {
-  left: 0;
-}
-
-.main-menu:target .menu-close,
-.main-menu[aria-expanded="true"] .menu-close {
-  z-index: 1001;
-}
-
-.main-menu:target ul,
-.main-menu[aria-expanded="true"] ul {
-  position: relative;
-  z-index: 1000;
-}
-
-/* 
- We could us `.main-menu:target:after`, but
- it wouldn't be clickable.
-*/
-.main-menu:target + .backdrop,
-.main-menu[aria-expanded="true"] + .backdrop {
-  position: absolute;
-  display: block;  
-  content: "";
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 998;
-  background: #000;
-  background: rgba(0,0,0,.85);
-  cursor: default;
-}
-
-@supports (position: fixed) {
-  .main-menu,
-  .main-menu:target + .backdrop,
-  .main-menu[aria-expanded="true"] + .backdrop {
-    position: fixed;
-  }
-}
 
 
 /*greeting font*/
@@ -1783,11 +1688,13 @@ p {
 /*Structure*//*Structure*//*Structure*//*Structure*/
 /*Structure*//*Structure*//*Structure*//*Structure*/
 
+
 body {
-	margin: 0 1% 0 1%;
+	margin: 0;
 	width: 100%;
-/*	border: 5px solid #FFD64C;
-*/}
+	overflow-x: hidden;
+}
+
 
 
 .eyes {
