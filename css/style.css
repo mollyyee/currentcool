@@ -1,4 +1,8 @@
-@media screen and (min-width: 768px) {
+body {
+	overflow-x: hidden;
+}
+
+@media screen and (min-width: 801px) {
 
 
 @font-face {
@@ -472,7 +476,7 @@ display: none; }
 	width: 70%;
 	position: absolute;
 	left: 25%;
-	top: 5%;
+	top: -6%;
 }
 
 #eyes {
