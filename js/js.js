@@ -71,16 +71,47 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 	  $("#22").delay(400).fadeIn();
 	});
 
+// $("#burger").click(function() {
+// 	var state = true;
+// 	if (state) {
+// 		$("#main-menu").css("display", "flex");
+// 		state = false;
+// 	}
+// 	else {
+// 		$("#main-menu").css("display", "none");
+// 		state = true;
+// 	}
+//     // var x = document.getElementById("main-menu");
+//     // if (x.style.display === "none") {
+//     //     x.style.display = "flex";} 
+//     // else {
+//     //     x.style.display = "none";}
+//     console.log("clicked")
+// })
 
-$(document).scroll(function() {
-  var y = $(this).scrollTop();
-  if (y > 0) {
-    $('.navbar').fadeIn();
-  } 
-  // else {
-  //   $('.navbar').fadeOut();
-  // }
-});
+
+
+
+
+
+// $("#close").click(function() {
+//     var x = document.getElementById("main-menu");
+//     if (x.style.display === "flex") {
+//         x.style.display = "none";} 
+//     else {
+//         x.style.display = "flex";}
+// })
+
+
+// $(document).scroll(function() {
+//   var y = $(this).scrollTop();
+//   if (y > 0) {
+//     $('.navbar').fadeIn();
+//   } 
+//   // else {
+//   //   $('.navbar').fadeOut();
+//   // }
+// });
 
 
 	$(function() {
@@ -172,16 +203,36 @@ $(document).scroll(function() {
 	  $(".fadein").delay(800).fadeIn();
 	});
 
+$("#burger").click(function() {
+    var x = document.getElementById("mainmenu");
+    if (x.style.display === "none") {
+        x.style.display = "flex";
+    } else {
+        x.style.display = "none";
+    }
 
-$(document).scroll(function() {
-  var y = $(this).scrollTop();
-  if (y > 200) {
-    $('.navbar').fadeIn();
-  } 
-  // else {
-  //   $('.navbar').fadeOut();
-  // }
-});
+})
+
+
+
+$("#close").click(function() {
+    var x = document.getElementById("mainmenu");
+    if (x.style.display === "flex") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "flex";
+    }
+})
+
+// $(document).scroll(function() {
+//   var y = $(this).scrollTop();
+//   if (y > 200) {
+//     $('.navbar').fadeIn();
+//   } 
+//   // else {
+//   //   $('.navbar').fadeOut();
+//   // }
+// });
 
 
 })
