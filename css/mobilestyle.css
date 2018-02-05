@@ -498,7 +498,9 @@ body {
 	position: relative;
 }
 
-
+#mobile {
+	display: none;
+}
 
 
 .navbar {
@@ -608,7 +610,7 @@ body {
 
 .photogrid {
 	width: 100%;
-	padding-top: 50%;
+	padding-top: 20%;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -1750,7 +1752,9 @@ body {
 }
 
 
-
+#mobile {
+	display: none;
+}
 
 .navbar {
 	width: 95%;
@@ -1860,7 +1864,7 @@ body {
 
 .photogrid {
 	width: 100%;
-	padding-top: 50%;
+	padding-top: 20%;
 	display: flex;
 	flex-wrap: wrap;
 }
