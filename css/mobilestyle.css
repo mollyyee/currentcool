@@ -291,9 +291,9 @@ p {
 
 .p {
 	font-family: "Helvetica Neue";
-	font-weight: 200;
+	font-weight: 400;
 	font-size: 18px;
-	line-height: 28px;
+	line-height: 24px;
 	letter-spacing: .5px;
 	color: #1F1F1F;
 	padding-bottom: 16px;
@@ -1541,9 +1541,9 @@ p {
 
 .p {
 	font-family: "Helvetica Neue";
-	font-weight: 200;
+	font-weight: 400;
 	font-size: 18px;
-	line-height: 28px;
+	line-height: 24px;
 	letter-spacing: .5px;
 	color: #1F1F1F;
 	padding-bottom: 16px;
