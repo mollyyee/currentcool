@@ -28,23 +28,33 @@
 
  
   <div class = "topbar"> 
-  		<a href = "../index.html">
+  		<a href = "./index.html">
     <h1 class = "logo"> m. yee </h1></a>
-    <a  id = "right">
-    <img id = "burger" src = "../assets/hamburger.png">
-    </a>
 </div>
 
+    <div id = "right">
+	<div id ="burger" onclick="myFunction(this)">
+  	<div class="bar1"></div>
+  	<div class="bar2"></div>
+  	<div class="bar3"></div>
+	</div>
+    </div>
+
+
+
+<script>
+function myFunction(x) {
+    x.classList.toggle("change");}
+</script>
 
   <div id = "mainmenu" style = "display:none;">
-      <img id = "close" src = "../assets/x.png"> 
       <ul>
       <li><a href="../about.html"> <h2> ABOUT </h2></a></li>
       <li><a href="../index.html"> <h2> WORK </h2> </a></li>
       <li id = "mobile"><a href="../resume.html"> <h2> RESUME </h2></a></li>
       </ul>
-  </div>
 
+  </div>
 
 <div class = "navbarproject" id = "bartop">
 	<div id = "centerme">
