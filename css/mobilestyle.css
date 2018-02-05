@@ -30,11 +30,12 @@
 	width: 100%;
 	padding-top: 8px;
 	z-index: 500;
+	position: fixed;
 }
 
 .logo {
 	margin: 0;
-	padding-left: 12px;
+	padding-left: 16px;
 }
 
 #mainmenu {
@@ -450,7 +451,7 @@ body {
 .eyes {
 	width: 100%;
 	position: absolute;
-	top: 4%;
+	top: 2%;
 }
 
 #eyes {
@@ -531,9 +532,7 @@ body {
 	width: 95%;
 	z-index: 6;
 	position: absolute;
-	display: flex;
 	display: none;
-
 }
 
 .back {
@@ -1276,9 +1275,11 @@ body {
 	z-index: 500;
 }
 
+
+
 .logo {
 	margin: 0;
-	padding-left: 12px;
+	padding-left: 16px;
 }
 
 
@@ -1700,7 +1701,7 @@ body {
 .eyes {
 	width: 100%;
 	position: absolute;
-	top: 12%;
+	top: 10%;
 }
 
 #eyes {
@@ -1739,7 +1740,8 @@ body {
 }
 
 .aboutmobilepadding {
-	padding-top: 50%;
+	padding-top: 20%;
+	padding-left: 2%;
 }
 
 .headercentered {
@@ -1781,7 +1783,6 @@ body {
 	width: 95%;
 	z-index: 6;
 	position: absolute;
-	display: flex;
 	display: none;
 
 }
