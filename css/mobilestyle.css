@@ -1325,6 +1325,7 @@ body {
 	width: 100%;
 	padding-top: 8px;
 	z-index: 1000;
+	position: fixed;
 }
 
 
