@@ -28,15 +28,26 @@
 
 
   <div class = "topbar"> 
-  		<a href = "../index.html">
+  		<a href = "./index.html">
     <h1 class = "logo"> m. yee </h1></a>
-    <a  id = "right">
-    <img id = "burger" src = "../assets/hamburger.png">
-    </a>
 </div>
 
+    <div id = "right">
+	<div id ="burger" onclick="myFunction(this)">
+  	<div class="bar1"></div>
+  	<div class="bar2"></div>
+  	<div class="bar3"></div>
+	</div>
+    </div>
+
+
+
+<script>
+function myFunction(x) {
+    x.classList.toggle("change");}
+</script>
+
   <div id = "mainmenu" style = "display:none;">
-      <img id = "close" src = "../assets/x.png"> 
       <ul>
       <li><a href="../about.html"> <h2> ABOUT </h2></a></li>
       <li><a href="../index.html"> <h2> WORK </h2> </a></li>
@@ -80,6 +91,12 @@
 <div class = "m-header scene_element scene_element--fadeinup">
 
 <div id = "projectbody">
+<div class = "mobileshow">
+	<div class = "projecttitle2"> Snickerdoodle </div>
+	<div class = 'p' id = 'mobileheader'> A creativity card game for 2nd and 3rd grade students
+</div> 
+</div>
+
 <div class = "imageboxsnicker">
 		<img class = "longblock" src = "./assets/intropic.jpg">
 		</div>
@@ -107,27 +124,27 @@
 </div>
 
 
-<div class = "mobileshow">
-<div class = "margin" id = "flex">
-	<div id = "halfcolumnspadding">
-		<div class = "projecttitle"> Snicker </div>
-		<div class = 'p' id = 'spacing'>  
-		A creativity card game for 2nd and 3rd grade students. 
-		</div>
-			<div class = "projectheader2"> ROLE </div>
-	<div class = 'p' id = 'specs'> UX research and product design </div>
-	</div>
-		<div id = "halfcolumnsleftpadding">
-<!-- 	<div class = "projecttitle" id = "invisible"> printz </div>
- -->
 
-	<div class = "projectheader2"> Timeline </div>
-	<div class = 'p' id = 'specs'> Aug 2016 - Dec 2016 </div>
-	<div class = "projectheader2"> Kudos </div>
-	<div class = 'p' id = 'specs'> Mimmi Linquist, Darren Kunitake, Julie Noh </div>
-</div>
-</div>
-</div>
+
+<div class = "mobileshow">
+
+<br>
+<br>
+
+	<div class = "projectheader3" id = "mobileheader"> Role </div>
+	<div class = 'p' id = "mobileheader"> UX research and product design </div>
+
+	<div class = "projectheader3" id = "mobileheader"> Project Type</div>
+	<div class = 'p' id = "mobileheader"> Hackathon </div>
+
+	<div class = "projectheader3" id = "mobileheader"> Timeline </div>
+	<div class = 'p' id = "mobileheader"> Aug 2016 - Dec 2016 </div>
+
+	<div class = "projectheader3" id = "mobileheader"> Kudos </div>
+	<div class = 'p' id = "mobileheader"> Mimmi Linquist, Darren Kunitake, Julie Noh </div>
+	</div>
+
+
 
 <div class = "margin">
 
