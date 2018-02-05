@@ -48,7 +48,7 @@
 	display: flex;
 	width: 100%;
 	padding-top: 8px;
-	z-index: 500;
+	z-index: 1000;
 	position: fixed;
 }
 
@@ -377,10 +377,7 @@ p {
 }
 
 
-#mobileheader {
-	width: 100%;
-	text-align: center;
-}
+
 
 .projectaccentfont {
 	font-family: "Helvetica Neue";
@@ -447,6 +444,11 @@ p {
 	line-height: 48px;
 	color: #839DA8;
 	padding-bottom: 8px;
+}
+
+#mobileheader {
+	width: 100%;
+	text-align: center;
 }
 
 .accentfont {
@@ -1322,7 +1324,7 @@ body {
 	display: flex;
 	width: 100%;
 	padding-top: 8px;
-	z-index: 500;
+	z-index: 1000;
 }
 
 
@@ -1703,6 +1705,15 @@ p {
 	color: #474747;
 	letter-spacing: 1px;
 	padding-bottom: 8px;
+}
+
+.projectheader3 {
+	font-family: "Helvetica Neue";
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	color: #4C4C4C;
+	letter-spacing: 1px;
 }
 
 .projectheader {
@@ -2567,6 +2578,11 @@ height: 15%;
 .change .bar3 {
     -webkit-transform: rotate(405deg) translate(-8px, -8px);
     transform: rotate(405deg) translate(-8px, -8px);
+}
+
+#mobileheader {
+	width: 100%;
+	text-align: center;
 }
 
 
