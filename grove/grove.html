@@ -1,7 +1,7 @@
 <!doctype = html>
 <html>
 <head>
-   <title>Snickerdoodle</title>
+   <title>Grove</title>
 	<meta charset = "utf-8"> 
 	<meta http-equiv = "X-UA Compatible" content = "IE=edge">
 	<meta name = "description" content = "Product designer">
@@ -29,22 +29,31 @@
   <div class = "topbar"> 
   		<a href = "./index.html">
     <h1 class = "logo"> m. yee </h1></a>
-    <a href = "#main-menu" class = "menu-toggle" 
- id = "right">
-    <img id = "burger" src = "../assets/hamburger.png">
-    </a>
-  </div>
+</div>
 
-  <nav id = "main-menu" class = "main-menu">
-      <a href = "#main-menu-toggle" class = "menu-close" 
->
-      <img id = "close" src = "../assets/x.png"> </a>
+    <div id = "right">
+	<div id ="burger" onclick="myFunction(this)">
+  	<div class="bar1"></div>
+  	<div class="bar2"></div>
+  	<div class="bar3"></div>
+	</div>
+    </div>
+
+
+
+<script>
+function myFunction(x) {
+    x.classList.toggle("change");}
+</script>
+
+  <div id = "mainmenu" style = "display:none;">
       <ul>
       <li><a href="../about.html"> <h2> ABOUT </h2></a></li>
-      <li><a href = "../index.html"> <h2> WORK </h2> </a></li>
-      <li><a href="../resume.html"> <h2> RESUME </h2></a></li>
+      <li><a href="../index.html"> <h2> WORK </h2> </a></li>
+      <li id = "mobile"><a href="../resume.html"> <h2> RESUME </h2></a></li>
       </ul>
-  </nav>
+
+  </div>
 
 <div class = "navbarproject" id = "bartop">
 	<div id = "centerme">
@@ -192,13 +201,13 @@ This method not only generates large amounts of ticket volume, but also can infu
 3. Grove Account (Any type of shipment account) 
 </div>
 	<div class = 'p' id = 'spacing'> 
-	Because we are a recurring shipment service with a VIP premium trial & recurring shipment schedule that automatically starts with the first purchase, it is difficult for users to tell whether this VIP membership corresponds to recurring shipment membership or additional premium perks membership. 
+	Two things automatically begin for users once they become customers- recurring product shipments and the VIP premium trial. Because these two automatic features start at the same time, users confuse them for each other. It is difficult to distinguish that VIP membership is not the recurring product shipments. 
 </div>
 
 
 
 	<div class = 'p' id = 'spacing'> 
-	After more in-depth research of our current flow, we found that we were funneling users with 3 different cancellation issues into one VIP-Cancellation UX flow that cannot address their problems in a targeted and frictionless way. We also did not message the Grove services clearly enough for users to understand the different value between each service. 
+	After more in-depth research of our current flow, we found that we were funneling users with 3 different cancellation issues into one VIP-Cancellation UX flow. This doesn't address users' problems in a targeted way. 
 	</div>
 <br>
 <br>
@@ -212,7 +221,7 @@ This method not only generates large amounts of ticket volume, but also can infu
 
 	<div class = 'p' id = 'spacing'> 
 
-Our problem for VIP cancellation through the digital platform is 2-tiered. First, users lack information. They do not clearly understand the VIP program solely through the digital platform. Second, we create a lot of UX friction for VIP cancellation- having to write an email to cancel membership is a lot of work and may deter or anger customers. 
+Our problem for VIP membership cancellation through the digital platform is 2-tiered. First, users lack information. They do not clearly understand the VIP program solely through the digital platform. Second, we create a lot of UX friction for VIP membership cancellation- having to write an email to cancel membership is a lot of work and may deter or anger customers. 
 
 </div>
 	<br>
@@ -233,20 +242,19 @@ Following the analysis of our current flow, I conducted a comprehensive review o
 	</div>
 <br>
 	<img class = "full" src = "./assets/birchbox.png">
-	<p> Examination of the experience of users learning about VIP.  </p>
+	<p> Birchbox practices: surveying users about why they're cancelling and make it a necessary field to fill out before users can successfully cancel. There's also an option to "change subscription" before clicking on "cancel subscription."  </p>
 
 	<br>
 
 	<br>
 	<img class = "full" src = "./assets/thrive.png">
-	<p> Examination of the experience of users learning about VIP.  </p>
+	<p> Thrive provides an additional promotional offer that adds value for customers. Their cancellation flow also includes 3 extra screens asking users if they are sure that they want to cancel. </p>
 
 	<br>
 	<br>
 
 	<img class = "full" src = "./assets/amazon.png">
-	<p> Examination of the experience of users learning about VIP.  </p>
-
+	<p> Amazon pitches the value of their prime membership during the cancellation flow. They also offer an alternative and cheaper membership program. </p>
 
 <br>
 <br>
